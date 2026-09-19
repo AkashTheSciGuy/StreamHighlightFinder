@@ -18,7 +18,7 @@ class SpeechAnalyzer:
         model_size="small",
         device="cuda",
         compute_type="float16",
-        language=None,
+        language="en",
     ):
         self.model_size = model_size
         self.device = device
